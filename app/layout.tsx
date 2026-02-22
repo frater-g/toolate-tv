@@ -3,7 +3,7 @@ import './globals.css'
 import Navigation from '@/components/Navigation'
 
 export const metadata: Metadata = {
-  title: 'too late show',
+  title: 'the too late show',
   description: 'no war but the psywar',
 }
 
