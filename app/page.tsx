@@ -5,7 +5,7 @@ export default function Home() {
       <section className="text-center py-20">
         <div className="chrome-shine inline-block px-8 py-4 mb-6">
           <h1 className="text-6xl font-bold text-white text-shadow-glow">
-            too late show
+            the too late show
           </h1>
         </div>
         <p className="text-2xl text-steel mt-4 tracking-wider">

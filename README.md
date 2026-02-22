@@ -1,6 +1,6 @@
-# Too Late Show Website
+# The Too Late Show Website
 
-Official website for Too Late Show - "No War but the Psywar"
+Official website for The Too Late Show - "No War but the Psywar"
 
 ## Design
 

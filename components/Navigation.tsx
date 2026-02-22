@@ -23,7 +23,7 @@ export default function Navigation() {
             href="/" 
             className="text-2xl font-bold text-silver hover:text-white transition-colors text-shadow-glow"
           >
-            too late show
+            the too late show
           </Link>
           
           <ul className="flex space-x-8">
