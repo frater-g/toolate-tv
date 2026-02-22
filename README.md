@@ -46,3 +46,4 @@ toolate.tv
 # Test deploy hook
 # Test after reconnect
 # Test after GitHub permissions fix
+# Testing GitHub Actions auto-deploy
