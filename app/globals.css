@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-metal-dark text-silver font-courier lowercase;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-courier lowercase tracking-wide;
+  }
+  
+  a {
+    @apply transition-colors duration-200;
+  }
+}
+
+@layer utilities {
+  .metal-gradient {
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0a0a0a 100%);
+  }
+  
+  .chrome-shine {
+    background: linear-gradient(90deg, #3a3a3a 0%, #6a6a6a 50%, #3a3a3a 100%);
+  }
+  
+  .text-shadow-glow {
+    text-shadow: 0 0 10px rgba(176, 176, 176, 0.3);
+  }
+}
