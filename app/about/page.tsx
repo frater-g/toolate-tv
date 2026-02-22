@@ -15,7 +15,7 @@ export default function About() {
         <section>
           <h2 className="text-2xl text-silver mb-4">the mission</h2>
           <p className="text-steel leading-relaxed">
-            too late show satirizes counterculture compromise and information warfare. 
+            the too late show satirizes counterculture compromise and information warfare. 
             we examine dark technology, surveillance, conspiracy culture, governmental 
             dysfunction, and the ways systems manipulate perception and reality.
           </p>
