@@ -13,6 +13,23 @@ export default function Home() {
         </p>
       </section>
 
+      {/* Promo Video */}
+      <section className="max-w-4xl mx-auto">
+        <div className="border-2 border-chrome bg-metal-gray/50 p-2">
+          <video 
+            controls 
+            autoPlay 
+            muted 
+            loop
+            className="w-full cursor-pointer"
+            poster="/promo-poster.jpg"
+          >
+            <source src="/promo.mov" type="video/quicktime" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </section>
+
       {/* About Preview */}
       <section className="border border-chrome p-8 bg-metal-gray/50">
         <h2 className="text-3xl mb-4 text-white">welcome to the psyop</h2>
