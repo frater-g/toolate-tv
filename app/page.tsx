@@ -24,7 +24,7 @@ export default function Home() {
             className="w-full cursor-pointer"
             poster="/promo-poster.jpg"
           >
-            <source src="/promo.mov" type="video/quicktime" />
+            <source src="/promo.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
