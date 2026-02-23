@@ -28,13 +28,23 @@ export default async function EpisodePage({ params }: { params: { slug: string }
 
         {episode.videoUrl && (
           <div className="border-2 border-chrome bg-metal-gray/50 p-2 mb-6">
-            <video 
-              controls 
-              className="w-full"
-            >
-              <source src={episode.videoUrl} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+            {episode.videoUrl.includes('youtube.com') || episode.videoUrl.includes('youtu.be') ? (
+              <iframe
+                className="w-full aspect-video"
+                src={episode.videoUrl.replace('watch?v=', 'embed/').replace('youtu.be/', 'youtube.com/embed/')}
+                title={episode.title}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            ) : (
+              <video 
+                controls 
+                className="w-full"
+              >
+                <source src={episode.videoUrl} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            )}
           </div>
         )}
 

@@ -13,7 +13,7 @@
 title: My Episode Title
 date: 2024-02-23
 description: Short description of the episode
-videoUrl: https://example.com/video.mp4
+videoUrl: https://www.youtube.com/watch?v=dQw4w9WgXcQ
 featured: false
 ---
 
@@ -46,8 +46,22 @@ Write your episode notes here.
 - **title**: Episode name (required)
 - **date**: When it aired (format: YYYY-MM-DD) (required)
 - **description**: Short summary
-- **videoUrl**: Link to video file or YouTube embed
+- **videoUrl**: YouTube URL or direct video file (see below)
 - **featured**: true/false (shows on homepage)
+
+## Video URLs
+
+**YouTube videos** - just paste the regular URL:
+```
+videoUrl: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+```
+
+**Direct video files** - link to .mp4 files:
+```
+videoUrl: https://example.com/video.mp4
+```
+
+Both formats work automatically.
 
 ## Everything Below `---` is the Body
 
