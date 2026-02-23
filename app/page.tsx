@@ -1,14 +1,14 @@
 export default function Home() {
   return (
     <div className="space-y-16">
-      {/* Hero Section */}
-      <section className="text-center py-20">
-        <div className="chrome-shine inline-block px-8 py-4 mb-6">
-          <h1 className="text-6xl font-bold text-white text-shadow-glow">
-            the too late show
-          </h1>
-        </div>
-        <p className="text-2xl text-steel mt-4 tracking-wider">
+      {/* Logo Header */}
+      <section className="w-full -mt-8">
+        <img 
+          src="/logo-header.png" 
+          alt="the too late show" 
+          className="w-full h-auto"
+        />
+        <p className="text-2xl text-steel mt-8 text-center tracking-wider">
           no war but the psywar
         </p>
       </section>
