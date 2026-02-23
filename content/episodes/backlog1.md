@@ -10,6 +10,8 @@ featured: true
 
 This was the big one from back in our YouTube days that got us banned and put opn the naughty disinfo list. I guess YouTube never heard of doing hilarious bits while everybody died from bats or whatever. Oh well, we were never gonna make ad money on this anyway so fuck em if they can't huff an airhorn
 
+
+
 ## Show Notes
 
 - * COVID cured
