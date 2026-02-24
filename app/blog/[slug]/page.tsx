@@ -45,7 +45,15 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
 
         {post.content && (
           <div className="prose prose-invert prose-chrome max-w-none text-chrome-light">
-            <ReactMarkdown>{post.content}</ReactMarkdown>
+            <ReactMarkdown
+              components={{
+                img: ({node, ...props}) => (
+                  <img {...props} className="w-full h-auto my-6 border border-chrome" />
+                )
+              }}
+            >
+              {post.content}
+            </ReactMarkdown>
           </div>
         )}
       </div>
