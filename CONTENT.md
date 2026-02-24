@@ -2,6 +2,48 @@
 
 **Forget Sanity. Just edit markdown files.**
 
+## Add a New Blog Post
+
+1. Go to `content/posts/` folder
+2. Create a new file: `my-post-title.md`
+3. Copy this template:
+
+```markdown
+---
+title: My Blog Post Title
+date: 2024-02-23
+description: Short summary (shows in listings)
+author: Dr. Belial Crow
+tags: [psyops, media, analysis]
+featured: false
+---
+
+# Your Post Title
+
+Write your blog content here. Full markdown support.
+
+## Subheading
+
+- **Bold text**
+- *Italic text*
+- [Links](https://example.com)
+- Images work too
+
+Keep writing. No length limits.
+```
+
+4. Save the file
+5. Commit and push to GitHub
+6. Post appears at toolate.tv/blog
+
+**Blog Post Fields:**
+- **title**: Post title (required)
+- **date**: Publication date (format: YYYY-MM-DD) (required)
+- **description**: Short summary for listings
+- **author**: Your name or pen name
+- **tags**: Array of keywords `[tag1, tag2, tag3]`
+- **featured**: true/false (for homepage)
+
 ## Add a New Episode
 
 1. Go to `content/episodes/` folder
