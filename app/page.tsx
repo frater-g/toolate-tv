@@ -42,6 +42,47 @@ export default function Home() {
         </p>
       </section>
 
+      {/* Newsletter Signup */}
+      <section className="border-2 border-chrome p-8 bg-metal-gray/50">
+        <h2 className="text-3xl mb-4 text-chrome">join the psywar briefing</h2>
+        <p className="text-steel mb-6">
+          get episodes, analysis, and transmissions delivered directly to your inbox.
+        </p>
+        <form 
+          action="https://buttondown.com/api/emails/embed-subscribe/DrCrow" 
+          method="post" 
+          className="embeddable-buttondown-form space-y-4"
+        >
+          <div className="flex flex-col sm:flex-row gap-4">
+            <input 
+              type="email" 
+              name="email" 
+              id="bd-email"
+              placeholder="your.email@example.com"
+              required
+              className="flex-1 bg-black border border-chrome px-4 py-3 text-chrome placeholder-steel focus:outline-none focus:border-chrome-light font-mono"
+            />
+            <button 
+              type="submit"
+              className="bg-chrome text-black px-8 py-3 font-bold hover:bg-chrome-light transition-colors border border-chrome"
+            >
+              SUBSCRIBE
+            </button>
+          </div>
+          <p className="text-steel text-xs">
+            powered by{' '}
+            <a 
+              href="https://buttondown.com/refer/DrCrow" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-chrome hover:text-chrome-light"
+            >
+              buttondown
+            </a>
+          </p>
+        </form>
+      </section>
+
       {/* Latest Content Placeholder */}
       <section>
         <h2 className="text-3xl mb-8 text-white border-b border-chrome pb-2">
