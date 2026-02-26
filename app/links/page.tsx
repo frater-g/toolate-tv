@@ -9,7 +9,14 @@ export default function Links() {
         <div className="space-y-4">
           <div className="border-l-2 border-chrome pl-4">
             <p className="text-chrome-light text-sm mb-1">social media links</p>
-            <p className="text-steel">coming soon</p>
+            <a
+              href="https://bsky.app/profile/frater-gorgias.bsky.social"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-silver hover:text-white transition-colors"
+            >
+              bluesky → @frater-gorgias.bsky.social
+            </a>
           </div>
           
           <div className="border-l-2 border-chrome pl-4">
