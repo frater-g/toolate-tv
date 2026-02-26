@@ -18,6 +18,18 @@ export default function Links() {
               bluesky → @frater-gorgias.bsky.social
             </a>
           </div>
+
+          <div className="border-l-2 border-chrome pl-4">
+            <p className="text-chrome-light text-sm mb-1">youtube</p>
+            <a
+              href="https://www.youtube.com/@thetoolateshow8196"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-silver hover:text-white transition-colors"
+            >
+              youtube → @thetoolateshow8196
+            </a>
+          </div>
           
           <div className="border-l-2 border-chrome pl-4">
             <p className="text-chrome-light text-sm mb-1">streaming platforms</p>
