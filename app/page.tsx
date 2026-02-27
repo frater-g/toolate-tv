@@ -42,6 +42,16 @@ export default function Home() {
           <p className="text-chrome-light text-center mt-4 text-lg">
             march 14, 2026
           </p>
+          <div className="text-center mt-6">
+            <a
+              href="https://www.facebook.com/events/1395870818402529/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-chrome text-black px-12 py-4 font-bold text-lg hover:bg-chrome-light transition-colors border-2 border-chrome"
+            >
+              RSVP
+            </a>
+          </div>
         </div>
       </section>
 
