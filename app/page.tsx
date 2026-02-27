@@ -30,6 +30,21 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Upcoming Show */}
+      <section className="border-2 border-chrome p-6 bg-metal-gray/50">
+        <h2 className="text-3xl mb-6 text-chrome text-center">next transmission</h2>
+        <div className="max-w-2xl mx-auto">
+          <img 
+            src="/saint-patty-poster.jpg" 
+            alt="Too Late Show - Saint Patrick's Day Special - March 14, 2026" 
+            className="w-full h-auto border border-chrome"
+          />
+          <p className="text-chrome-light text-center mt-4 text-lg">
+            march 14, 2026
+          </p>
+        </div>
+      </section>
+
       {/* About Preview */}
       <section className="border border-chrome p-8 bg-metal-gray/50">
         <h2 className="text-3xl mb-4 text-white">it's already too late</h2>
