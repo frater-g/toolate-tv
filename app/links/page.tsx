@@ -38,7 +38,12 @@ export default function Links() {
           
           <div className="border-l-2 border-chrome pl-4">
             <p className="text-chrome-light text-sm mb-1">contact</p>
-            <p className="text-steel">coming soon</p>
+            <a
+              href="mailto:thirdfloorthirdfloorthirdfloor@gmail.com"
+              className="text-silver hover:text-white transition-colors"
+            >
+              email → thirdfloorthirdfloorthirdfloor@gmail.com
+            </a>
           </div>
         </div>
       </div>
