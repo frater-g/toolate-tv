@@ -1,7 +1,7 @@
 ---
 title: MISS information? I hardly know her!
 date: 2020-08-22
-description: 
+description: how to get banned from youtube for doing jests and japes
 videoUrl: https://youtu.be/CoJIlGa80FY?si=3PbouPL6Bst5XN_U
 featured: true
 ---
