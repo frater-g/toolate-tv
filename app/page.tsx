@@ -1,4 +1,8 @@
+import { getLatestContent } from '@/lib/content'
+
 export default function Home() {
+  const latestContent = getLatestContent(3)
+
   return (
     <div className="space-y-16">
       {/* Logo Header */}
@@ -107,22 +111,41 @@ export default function Home() {
         </form>
       </section>
 
-      {/* Latest Content Placeholder */}
+      {/* Latest Content */}
       <section>
         <h2 className="text-3xl mb-8 text-white border-b border-chrome pb-2">
           latest transmissions
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {[1, 2, 3].map((i) => (
-            <div key={i} className="border border-chrome p-6 bg-metal-gray/30 hover:bg-metal-gray/50 transition-colors">
-              <div className="text-chrome-light text-sm mb-2">coming soon</div>
-              <h3 className="text-xl text-silver mb-2">content placeholder {i}</h3>
-              <p className="text-chrome-light text-sm">
-                episodes, blog posts, and media will appear here
-              </p>
-            </div>
-          ))}
-        </div>
+        {latestContent.length === 0 ? (
+          <div className="border border-chrome p-8 bg-metal-gray/30 text-center">
+            <p className="text-chrome-light">no content yet</p>
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {latestContent.map((item) => (
+              <a
+                key={item.slug}
+                href={item.url}
+                className="border border-chrome p-6 bg-metal-gray/30 hover:bg-metal-gray/50 transition-colors"
+              >
+                <div className="text-chrome-light text-xs mb-2 uppercase">
+                  {item.type}
+                </div>
+                <h3 className="text-xl text-silver mb-2">{item.title}</h3>
+                {item.date && (
+                  <div className="text-steel text-xs mb-3">
+                    {new Date(item.date).toLocaleDateString()}
+                  </div>
+                )}
+                {item.description && (
+                  <p className="text-chrome-light text-sm line-clamp-3">
+                    {item.description}
+                  </p>
+                )}
+              </a>
+            ))}
+          </div>
+        )}
       </section>
     </div>
   )

@@ -107,3 +107,25 @@ export function getPost(slug: string) {
     content
   }
 }
+
+export function getLatestContent(limit = 3) {
+  const posts = getPosts().map(post => ({
+    ...post,
+    type: 'blog' as const,
+    url: `/blog/${post.slug}`
+  }))
+
+  const episodes = getEpisodes().map(episode => ({
+    ...episode,
+    type: 'episode' as const,
+    url: `/episodes/${episode.slug}`
+  }))
+
+  // Combine all content
+  const allContent = [...posts, ...episodes]
+
+  // Sort by date (newest first) and take top N
+  return allContent
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+    .slice(0, limit)
+}
