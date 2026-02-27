@@ -9,14 +9,32 @@ export default function Links() {
         <div className="space-y-4">
           <div className="border-l-2 border-chrome pl-4">
             <p className="text-chrome-light text-sm mb-1">social media links</p>
-            <a
-              href="https://bsky.app/profile/frater-gorgias.bsky.social"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-silver hover:text-white transition-colors"
-            >
-              bluesky → @frater-gorgias.bsky.social
-            </a>
+            <div className="space-y-2">
+              <a
+                href="https://bsky.app/profile/frater-gorgias.bsky.social"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-silver hover:text-white transition-colors"
+              >
+                bluesky → @frater-gorgias.bsky.social
+              </a>
+              <a
+                href="https://www.facebook.com/toolateshowofficial"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-silver hover:text-white transition-colors"
+              >
+                facebook → @toolateshowofficial
+              </a>
+              <a
+                href="https://www.instagram.com/toolateshowofficial"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-silver hover:text-white transition-colors"
+              >
+                instagram → @toolateshowofficial
+              </a>
+            </div>
           </div>
 
           <div className="border-l-2 border-chrome pl-4">
