@@ -32,13 +32,12 @@ export default function Home() {
 
       {/* About Preview */}
       <section className="border border-chrome p-8 bg-metal-gray/50">
-        <h2 className="text-3xl mb-4 text-white">welcome to the psyop</h2>
+        <h2 className="text-3xl mb-4 text-white">it's already too late</h2>
         <p className="text-steel leading-relaxed mb-4">
-          hosted by dr. belial crow, a cia plant vat-grown to host a talk show about 
-          counterculture compromise and information warfare.
+          A live semi-scripted improv show with interviews, social analysis, and a grim comedic outlook on living in the heart of babylon 
         </p>
         <p className="text-chrome-light text-sm">
-          this is not entertainment. this is reconnaissance.
+          your mind is the battlefield. our show is smokeable SIGINT
         </p>
       </section>
 
