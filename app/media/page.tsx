@@ -3,10 +3,32 @@
 import { useState } from 'react'
 import Image from 'next/image'
 
-// Add your image filenames here as you upload them to public/media/gallery/
+// Gallery images from public/media/gallery/
 const galleryImages = [
-  // Example: 'show-night-1.jpg',
-  // Add more as you upload
+  'img1.jpg',
+  'img2.jpg',
+  'img3.jpg',
+  'img4.jpg',
+  'img5.jpg',
+  'img6.jpg',
+  'img7.jpg',
+  'img8.jpg',
+  'img9.jpg',
+  'img10.jpg',
+  'img11.jpg',
+  'img12.jpg',
+  'img13.jpg',
+  'img14.jpg',
+  'img15.jpg',
+  'img16.jpg',
+  'img17.jpg',
+  'img18.jpg',
+  'img19.jpg',
+  'img20.jpg',
+  'img21.jpg',
+  'img22.jpg',
+  'img23.jpg',
+  'img24.jpg',
 ]
 
 export default function Media() {
