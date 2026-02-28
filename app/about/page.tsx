@@ -7,7 +7,7 @@ export default function About() {
         <section>
           <h2 className="text-2xl text-silver mb-4">the premise</h2>
           <p className="text-steel leading-relaxed">
-           The Too Late Show, hosted by Dr. Belial Crow, is a live event masquerading as a 'televised' talk show that combines semi-scripted improv with carefully prepared truth nukes and psychic assaults designed to entertain and puzzle you. Joined by correspondents like Megaharvard's Dr. Beef Supreme, The Too Late Show features experts at the top of their fields discussing the important cultural events of the moment. Funded by the CIA and owned by a variety of tech and beverage industry stakeholders, we look forward to cracking your skull open and reshaping the plastic we find in there. 
+           The Too Late Show, hosted by Dr. Belial Crow, is a live event masquerading as a 'televised' talk show that combines semi-scripted improv with carefully prepared truth nukes and psychic assaults designed to entertain and puzzle you. Joined by correspondents like Megaharvard's Dr. Beef Supreme, DJ Scarecrow, and Mr. Party, The Too Late Show features experts at the top of their fields discussing the important cultural events of the moment. Funded by the CIA and owned by a variety of tech and beverage industry stakeholders, we look forward to cracking your skull open and reshaping the plastic we find in there. 
           </p>
         </section>
 
