@@ -22,6 +22,26 @@ npm test
 npm run ci
 ```
 
+## Git Workflow TL;DR
+
+**We use rebase + squash merge to keep history clean:**
+
+1. Create feature branch from `main`
+2. Make commits (as many as you want)
+3. **Rebase onto `main`** before pushing: `git rebase origin/main`
+4. Push with `--force-with-lease` if rebased
+5. Open PR
+6. CI must pass
+7. **Squash and merge** (combines all commits into one)
+
+**Key commands:**
+```bash
+# Before opening/updating PR
+git fetch origin
+git rebase origin/main
+git push --force-with-lease origin your-branch-name
+```
+
 ## Development Workflow
 
 ### 1. Create an Issue
@@ -125,15 +145,45 @@ git commit -m "fixed it"
 git commit -m "updates"
 ```
 
-### 7. Push and Open a Pull Request
+**Multiple commits are fine!** They'll be squashed when merging.
+
+### 7. Rebase Before Pushing
+
+**Always rebase onto latest `main` before opening/updating your PR.**
+
+This keeps history linear and avoids merge commits.
 
 ```bash
-# Push your branch
+# Fetch latest main
+git fetch origin
+
+# Rebase your branch onto main
+git rebase origin/main
+
+# If there are conflicts:
+# 1. Fix conflicts in your editor
+# 2. git add <fixed-files>
+# 3. git rebase --continue
+
+# If you need to abort:
+# git rebase --abort
+```
+
+### 8. Push and Open a Pull Request
+
+```bash
+# First time pushing this branch
 git push origin feature/dark-mode-15
 
-# Open PR on GitHub
-# Title: "Add dark mode toggle (closes #15)"
+# If you've rebased (after initial push)
+git push --force-with-lease origin feature/dark-mode-15
 ```
+
+**⚠️ Use `--force-with-lease` after rebasing** — safer than `--force`, prevents overwriting others' work.
+
+**Open PR on GitHub:**
+- Title: "Add dark mode toggle (closes #15)"
+- Fill out the PR template
 
 **PR Description Template:**
 ```markdown
@@ -154,7 +204,7 @@ Why this change is needed.
 Closes #15
 ```
 
-### 8. Wait for CI
+### 9. Wait for CI
 
 GitHub Actions will automatically:
 - Run type checking
@@ -164,11 +214,36 @@ GitHub Actions will automatically:
 
 **You must fix any failures before merging.**
 
-### 9. Review & Merge
+### 10. Review & Merge
 
-- If you have write access, you can merge your own PR after CI passes
+**Before merging:**
+- All CI checks must pass (type-check, lint, tests, build)
+- Rebase again if `main` has moved ahead while your PR was open
 - For significant changes, request a review from another contributor
+
+**Merging:**
 - Once approved and CI is green, click **"Squash and merge"**
+- This combines all your commits into one clean commit on `main`
+- Edit the commit message if needed (default is PR title + body)
+- Delete your branch after merging (GitHub will prompt)
+
+**Why squash merge?**
+- Keeps `main` history clean (one commit per feature/fix)
+- Easy to revert entire features if needed
+- Clear timeline of what changed when
+
+**Example:**
+```
+Your PR branch (5 commits):
+- "WIP dark mode"
+- "add toggle component"  
+- "fix styling"
+- "add tests"
+- "address review comments"
+
+After squash merge on main (1 commit):
+- "Add dark mode toggle (#15)"
+```
 
 ## Code Style
 
@@ -248,6 +323,71 @@ convert image.jpg -resize '1600x1600>' -quality 85 optimized.jpg
 ```
 
 Add to `public/media/gallery/` and update the `galleryImages` array in `app/media/page.tsx`.
+
+## Troubleshooting
+
+### Rebase Conflicts
+
+If you get conflicts during rebase:
+
+```bash
+# 1. Git will pause and show conflicted files
+# 2. Open each file and resolve conflicts (look for <<<< ==== >>>>)
+# 3. After fixing:
+git add <fixed-file>
+git rebase --continue
+
+# If you want to abort the rebase:
+git rebase --abort
+```
+
+### "Force push rejected"
+
+If `git push --force-with-lease` is rejected, someone else pushed to your branch:
+
+```bash
+# Pull their changes first
+git pull origin your-branch-name
+
+# Then rebase again
+git rebase origin/main
+
+# Then push
+git push --force-with-lease origin your-branch-name
+```
+
+### "Main has moved ahead"
+
+If `main` updated while your PR was open:
+
+```bash
+# In your feature branch
+git fetch origin
+git rebase origin/main
+
+# Fix any conflicts, then:
+git push --force-with-lease origin your-branch-name
+
+# CI will re-run automatically
+```
+
+### Accidentally committed to `main`
+
+If you made changes on `main` instead of a branch:
+
+```bash
+# Create a branch with your changes
+git checkout -b feature/my-fix-123
+
+# Go back to main
+git checkout main
+
+# Reset main to match origin
+git reset --hard origin/main
+
+# Your changes are safe in feature/my-fix-123
+# Now push that branch and open a PR
+```
 
 ## Getting Help
 
