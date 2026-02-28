@@ -1,4 +1,4 @@
-import { getEpisodes } from '@/lib/content'
+import { getEpisodes, Episode } from '@/lib/content'
 
 export default function EpisodesPage() {
   const episodes = getEpisodes()
@@ -16,7 +16,7 @@ export default function EpisodesPage() {
         </div>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {episodes.map((episode: any) => (
+          {episodes.map((episode: Episode) => (
             <a
               key={episode.slug}
               href={`/episodes/${episode.slug}`}

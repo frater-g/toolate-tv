@@ -61,7 +61,7 @@ export default function Home() {
 
       {/* About Preview */}
       <section className="border border-chrome p-8 bg-metal-gray/50">
-        <h2 className="text-3xl mb-4 text-white">it's already too late</h2>
+        <h2 className="text-3xl mb-4 text-white">it&apos;s already too late</h2>
         <p className="text-steel leading-relaxed mb-4">
           A live semi-scripted improv show with interviews, social analysis, and a grim comedic outlook on living in the heart of babylon 
         </p>
