@@ -7,7 +7,7 @@ export default function About() {
         <section>
           <h2 className="text-2xl text-silver mb-4">the premise</h2>
           <p className="text-steel leading-relaxed">
-           The Too Late Show, hosted by Dr. Belial Crow, is a live event masquerading as a 'televised' talk show that combines semi-scripted improv with carefully prepared truth nukes and psychic assaults designed to entertain and puzzle you. Joined by correspondents like Megaharvard's Dr. Beef Supreme, DJ Scarecrow, and Mr. Party, The Too Late Show features experts at the top of their fields discussing the important cultural events of the moment. Funded by the CIA and owned by a variety of tech and beverage industry stakeholders, we look forward to cracking your skull open and reshaping the plastic we find in there. 
+           The Too Late Show, hosted by Dr. Belial Crow, is a live event masquerading as a &apos;televised&apos; talk show that combines semi-scripted improv with carefully prepared truth nukes and psychic assaults designed to entertain and puzzle you. Joined by correspondents like Megaharvard&apos;s Dr. Beef Supreme, DJ Scarecrow, and Mr. Party, The Too Late Show features experts at the top of their fields discussing the important cultural events of the moment. Funded by the CIA and owned by a variety of tech and beverage industry stakeholders, we look forward to cracking your skull open and reshaping the plastic we find in there. 
           </p>
         </section>
 
@@ -24,7 +24,7 @@ export default function About() {
           <h2 className="text-2xl text-silver mb-4">the host</h2>
           <p className="text-steel leading-relaxed">
             intelligence asset. talk show host. cultural 
-            infiltrator. Dr. Belial Crow is a talk show host grown in a vat by CIA 'scientists' and set loose on the world with one mission: make sure every human being has a smooth brain, zero understanding of real reality, and an inability to process the cognitohazards that populate the modern media landscape.
+            infiltrator. Dr. Belial Crow is a talk show host grown in a vat by CIA &apos;scientists&apos; and set loose on the world with one mission: make sure every human being has a smooth brain, zero understanding of real reality, and an inability to process the cognitohazards that populate the modern media landscape.
           </p>
         </section>
       </div>

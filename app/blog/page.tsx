@@ -1,4 +1,4 @@
-import { getPosts } from '@/lib/content'
+import { getPosts, Post } from '@/lib/content'
 
 export default function Blog() {
   const posts = getPosts()
@@ -16,7 +16,7 @@ export default function Blog() {
         </div>
       ) : (
         <div className="space-y-6">
-          {posts.map((post: any) => (
+          {posts.map((post: Post) => (
             <a
               key={post.slug}
               href={`/blog/${post.slug}`}

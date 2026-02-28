@@ -4,6 +4,27 @@ import matter from 'gray-matter'
 
 const contentDirectory = path.join(process.cwd(), 'content')
 
+export interface Episode {
+  slug: string
+  title: string
+  date: string
+  description: string
+  videoUrl: string
+  featured: boolean
+  content: string
+}
+
+export interface Post {
+  slug: string
+  title: string
+  date: string
+  description: string
+  author: string
+  tags: string[]
+  featured: boolean
+  content: string
+}
+
 export function getEpisodes() {
   const episodesDirectory = path.join(contentDirectory, 'episodes')
   
