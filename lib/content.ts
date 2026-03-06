@@ -34,7 +34,7 @@ export function getEpisodes() {
 
   const fileNames = fs.readdirSync(episodesDirectory)
   const episodes = fileNames
-    .filter(fileName => fileName.endsWith('.md'))
+    .filter(fileName => fileName.endsWith('.md') && !fileName.includes('.md.'))
     .map(fileName => {
       const slug = fileName.replace(/\.md$/, '')
       const fullPath = path.join(episodesDirectory, fileName)
