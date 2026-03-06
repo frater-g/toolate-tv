@@ -85,7 +85,7 @@ export function getPosts() {
 
   const fileNames = fs.readdirSync(postsDirectory)
   const posts = fileNames
-    .filter(fileName => fileName.endsWith('.md'))
+    .filter(fileName => fileName.endsWith('.md') && !fileName.includes('.md.'))
     .map(fileName => {
       const slug = fileName.replace(/\.md$/, '')
       const fullPath = path.join(postsDirectory, fileName)
