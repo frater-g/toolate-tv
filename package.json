@@ -14,6 +14,7 @@
     "ci": "npm run type-check && npm run lint && npm run test && npm run build"
   },
   "dependencies": {
+    "framer-motion": "^12.35.0",
     "gray-matter": "^4.0.3",
     "next": "^14.2.0",
     "react": "^18.3.0",

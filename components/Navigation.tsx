@@ -11,6 +11,7 @@ const navItems = [
   { href: '/newsletter', label: 'newsletter' },
   { href: '/media', label: 'media' },
   { href: '/links', label: 'links' },
+  { href: '/timeline', label: 'timeline' },
 ]
 
 export default function Navigation() {

@@ -1,0 +1,308 @@
+[
+  {
+    "id": "operation-paperclip",
+    "year": 1945,
+    "yPos": 0.25,
+    "title": "operation paperclip",
+    "description": "the us joint intelligence objectives agency recruits over 1,600 nazi scientists, engineers, and technicians following world war ii. participants include rocket engineers, medical doctors who conducted experiments on concentration camp prisoners, and chemical weapons researchers. many are given falsified employment histories. several go on to hold senior positions at nasa and the department of defense.",
+    "image": null,
+    "link": { "label": "read more", "url": "https://en.wikipedia.org/wiki/Operation_Paperclip" }
+  },
+  {
+    "id": "fluoridation",
+    "year": 1945,
+    "yPos": 0.60,
+    "title": "mass water fluoridation begins",
+    "description": "grand rapids, michigan becomes the first city in the world to fluoridate its public water supply. the initiative is championed by the us public health service. declassified documents from the manhattan project reveal that fluoride — a key component of uranium enrichment — had contaminated surrounding communities, and that early fluoridation studies were partially conducted to provide legal cover for the bomb program. the connection between the fluoride lobby and defense contracting has never been the subject of a congressional investigation.",
+    "image": null,
+    "link": { "label": "read more", "url": "https://en.wikipedia.org/wiki/Water_fluoridation_controversy" }
+  },
+  {
+    "id": "tavistock",
+    "year": 1946,
+    "yPos": 0.82,
+    "title": "tavistock institute established",
+    "description": "the tavistock institute of human relations is formally established in london, spun out of the wartime psychological warfare division. funded by the rockefeller foundation, the institute develops techniques for large-scale social manipulation, group dynamics research, and mass behavioral change. its methods are later adopted by corporations, governments, and advertising agencies. several of its founding researchers maintain concurrent relationships with british and american intelligence services.",
+    "image": null,
+    "link": { "label": "read more", "url": "https://en.wikipedia.org/wiki/Tavistock_Institute" }
+  },
+  {
+    "id": "project-artichoke",
+    "year": 1951,
+    "yPos": 0.70,
+    "title": "project artichoke",
+    "description": "a cia program investigating whether a 'manchurian candidate' — a person induced to carry out an assassination against their will — could be created through hypnosis, drugs, or other means. a precursor to mkultra. internal memos reference experiments on prisoners and foreign nationals at undisclosed overseas sites. the program's full scope has never been officially confirmed.",
+    "image": null,
+    "link": { "label": "read more", "url": "https://en.wikipedia.org/wiki/Project_ARTICHOKE" }
+  },
+  {
+    "id": "nsa-founded",
+    "year": 1952,
+    "yPos": 0.42,
+    "title": "the nsa is founded",
+    "description": "president truman signs a classified memo establishing the national security agency, an entity so secret that for decades its existence is officially denied. nsa stands for 'no such agency' in early intelligence community parlance. its founding charter authorizes signals intelligence collection with no meaningful civilian oversight. the full scope of its domestic surveillance programs will not be known for over sixty years.",
+    "image": null,
+    "link": { "label": "read more", "url": "https://en.wikipedia.org/wiki/National_Security_Agency" }
+  },
+  {
+    "id": "mkultra",
+    "year": 1953,
+    "yPos": 0.15,
+    "title": "project mkultra",
+    "description": "the cia launches a covert, illegal human experimentation program intended to develop procedures and identify drugs that could be used during interrogations to weaken individuals and force confessions through mind control. over 150 human subjects are tested without consent. records are destroyed in 1973 on orders from cia director richard helms.",
+    "image": null,
+    "link": { "label": "read more", "url": "https://en.wikipedia.org/wiki/Project_MKUltra" }
+  },
+  {
+    "id": "operation-mockingbird",
+    "year": 1953,
+    "yPos": 0.55,
+    "title": "operation mockingbird",
+    "description": "a cia program to influence domestic and foreign media. journalists at major outlets are recruited or cultivated as assets. the church committee later confirms the cia maintained relationships with dozens of american journalists. the full list of participants has never been made public. the program's official end date is disputed.",
+    "image": null,
+    "link": { "label": "read more", "url": "https://en.wikipedia.org/wiki/Operation_Mockingbird" }
+  },
+  {
+    "id": "operation-midnight-climax",
+    "year": 1954,
+    "yPos": 0.87,
+    "title": "operation midnight climax",
+    "description": "a cia sub-project of mkultra in which operatives lure civilians to safehouses in san francisco and new york using sex workers, then dose them with lsd without their knowledge while agents observe from behind one-way glass. the program runs for nearly a decade. the supervising officer is never prosecuted. the project is described in declassified documents as 'morally objectionable' by the cia's own inspector general.",
+    "image": null,
+    "link": { "label": "read more", "url": "https://en.wikipedia.org/wiki/Operation_Midnight_Climax" }
+  },
+  {
+    "id": "cointelpro",
+    "year": 1956,
+    "yPos": 0.35,
+    "title": "cointelpro",
+    "description": "the fbi launches a series of covert, illegal projects designed to surveil, infiltrate, discredit, and disrupt domestic political organizations — from the civil rights movement to the socialist workers party to the american indian movement. the program runs until 1971 when its existence is exposed by stolen files. many targets are never informed.",
+    "image": null,
+    "link": { "label": "read more", "url": "https://en.wikipedia.org/wiki/COINTELPRO" }
+  },
+  {
+    "id": "operation-gladio",
+    "year": 1956,
+    "yPos": 0.73,
+    "title": "operation gladio",
+    "description": "nato establishes a network of secret 'stay-behind' paramilitary cells across western europe, to be activated in the event of a soviet invasion. the italian branch, operation gladio, is later implicated in a string of domestic terrorist attacks during the 'years of lead' — bombings, assassinations, and atrocities attributed at the time to left-wing extremists. a 1990 italian parliamentary investigation finds that gladio operatives were responsible for false flag attacks designed to shift public opinion.",
+    "image": null,
+    "link": { "label": "read more", "url": "https://en.wikipedia.org/wiki/Operation_Gladio" }
+  },
+  {
+    "id": "operation-northwoods",
+    "year": 1962,
+    "yPos": 0.10,
+    "title": "operation northwoods",
+    "description": "the joint chiefs of staff present a classified proposal recommending staged false flag terrorist attacks on us soil — including bombings, hijackings, and civilian casualties — to be blamed on cuba as pretext for war. president kennedy rejects the plan. the documents are declassified in 1997.",
+    "image": null,
+    "link": { "label": "read more", "url": "https://en.wikipedia.org/wiki/Operation_Northwoods" }
+  },
+  {
+    "id": "gulf-of-tonkin",
+    "year": 1964,
+    "yPos": 0.62,
+    "title": "gulf of tonkin incident",
+    "description": "the johnson administration claims north vietnamese forces attacked us navy destroyers on two separate occasions. congress passes the gulf of tonkin resolution, authorizing full-scale military intervention in vietnam. the second attack is later confirmed to have never occurred. declassified nsa documents show analysts knew this in real time.",
+    "image": null,
+    "link": { "label": "read more", "url": "https://en.wikipedia.org/wiki/Gulf_of_Tonkin_incident" }
+  },
+  {
+    "id": "mksearch",
+    "year": 1964,
+    "yPos": 0.28,
+    "title": "project mksearch",
+    "description": "as congressional scrutiny forces mkultra into the shadows, the cia launches mksearch — a successor program continuing research into behavior modification, drug-induced hypnosis, and electronic mind control. the program funds research at universities and private contractors under sanitized cover identities. mksearch runs until 1973, when records are destroyed ahead of the church committee investigation.",
+    "image": null,
+    "link": { "label": "read more", "url": "https://en.wikipedia.org/wiki/Project_MKSEARCH" }
+  },
+  {
+    "id": "operation-chaos",
+    "year": 1967,
+    "yPos": 0.48,
+    "title": "operation chaos",
+    "description": "a domestic cia surveillance program targeting antiwar activists, civil rights leaders, and political dissidents. explicitly illegal under the cia's charter, which prohibits domestic operations. over 7,200 us citizens are indexed in cia files. the program operates in parallel with fbi cointelpro and nsa surveillance. shut down following the church committee's investigation.",
+    "image": null,
+    "link": { "label": "read more", "url": "https://en.wikipedia.org/wiki/Operation_CHAOS" }
+  },
+  {
+    "id": "church-committee",
+    "year": 1975,
+    "yPos": 0.22,
+    "title": "church committee",
+    "description": "a u.s. senate select committee investigates abuses by the cia, nsa, fbi, and irs — exposing assassination plots against foreign leaders, illegal domestic surveillance programs, and the full scope of mkultra. cia director william colby cooperates selectively. many relevant records are destroyed before investigators arrive.",
+    "image": null,
+    "link": { "label": "read more", "url": "https://en.wikipedia.org/wiki/Church_Committee" }
+  },
+  {
+    "id": "iran-contra",
+    "year": 1986,
+    "yPos": 0.68,
+    "title": "iran-contra affair",
+    "description": "senior reagan administration officials secretly facilitate arms sales to iran and divert proceeds to fund nicaraguan contra rebels in defiance of a congressional ban. the operation is run out of the white house basement. eleven officials are convicted. most convictions are later overturned or pardoned.",
+    "image": null,
+    "link": { "label": "read more", "url": "https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair" }
+  },
+  {
+    "id": "haarp",
+    "year": 1993,
+    "yPos": 0.15,
+    "title": "haarp",
+    "description": "the high-frequency active auroral research program, a joint darpa/air force/navy ionospheric research facility in alaska, begins construction. its publicly stated purpose is to study the ionosphere. researchers, journalists, and several foreign governments allege capabilities including weather modification, earthquake induction, and targeted disruption of human neurological function at range. the facility's full technical specifications remain classified.",
+    "image": null,
+    "link": { "label": "read more", "url": "https://en.wikipedia.org/wiki/High-frequency_Active_Auroral_Research_Program" }
+  },
+  {
+    "id": "total-information-awareness",
+    "year": 2002,
+    "yPos": 0.52,
+    "title": "total information awareness",
+    "description": "darpa launches the total information awareness program under admiral john poindexter — convicted iran-contra felon — with the goal of mass-harvesting the digital records of every american. congress defunds the program in 2003 following public outcry. subsequent snowden disclosures reveal the core infrastructure was never dismantled; it was simply renamed and moved.",
+    "image": null,
+    "link": { "label": "read more", "url": "https://en.wikipedia.org/wiki/Total_Information_Awareness" }
+  },
+  {
+    "id": "prism",
+    "year": 2013,
+    "yPos": 0.30,
+    "title": "prism surveillance program",
+    "description": "nsa contractor edward snowden leaks documents revealing prism — a clandestine surveillance program collecting internet communications from major us technology companies. the program operates under secret fisa court orders. the companies deny knowledge. subsequent congressional testimony suggests otherwise.",
+    "image": null,
+    "link": { "label": "read more", "url": "https://en.wikipedia.org/wiki/PRISM" }
+  },
+  {
+    "id": "ial-founded",
+    "year": 2014,
+    "yPos": 0.72,
+    "title": "institute for advanced levels",
+    "description": "dr. beef supreme — mathematician, non-aristotelian mathematician, and abstractor of the quintessence — founds the institute for advanced levels. the ial is devoted to the study of advanced knowledge: a sui generis thought process incompatible with conventional epistemology, accessible only by forgetting everything one has ever learned. it is later absorbed into mega harvard as a founding department. no enrollment figures are available.",
+    "image": null,
+    "link": { "label": "read more", "url": "https://alch3my.wiki/index.php/Mega_Harvard" }
+  },
+  {
+    "id": "mega-harvard-founded",
+    "year": 2016,
+    "yPos": 0.85,
+    "title": "mega harvard founded",
+    "description": "dr. beef supreme founds mega harvard, a university purported to exist in hyperspace. unlike regular harvard, mega harvard has no students or administration — only wandering rogue professors. admission is conducted telepathically. the entrance is guarded by a being whose appearance depends on the psyche of the observer. they always carry a yellow flag.",
+    "image": null,
+    "link": { "label": "read more", "url": "https://alch3my.wiki/index.php/Mega_Harvard" }
+  },
+  {
+    "id": "qualia-research-institute",
+    "year": 2017,
+    "yPos": 0.48,
+    "title": "qualia research institute",
+    "description": "the qualia research institute publishes its first papers theorizing psychedelic cryptography — the embedding of information in sensory stimuli only perceptible at altered states of consciousness. the research is initially dismissed as fringe neuroscience. it will later be described as 'a matter of national security.' its glossary of consciousness research remains publicly accessible at qri.org.",
+    "image": null,
+    "link": { "label": "read more", "url": "https://qri.org" }
+  },
+  {
+    "id": "too-late-show-debut",
+    "year": 2019,
+    "yPos": 0.12,
+    "title": "the too late show debuts",
+    "description": "a live talk show hosted by dr. beelzebub crow premieres at alchemy, produced by the third floor society. it dominates the southeast regional burn talk show circuit so thoroughly that no competing shows attempt to form for years. the too early show is the exception, and is not discussed further.",
+    "image": null,
+    "link": { "label": "read more", "url": "https://alch3my.wiki/index.php/Too_Late_Show" }
+  },
+  {
+    "id": "vexillian-awakening",
+    "year": 2021,
+    "yPos": 0.35,
+    "title": "the summer of gold",
+    "description": "a nebulously defined period of vexillomantic awakening begins at alchemy burn 2021, catalyzed by the too late show. the vexillians — a new religious movement centered on the worship of yellow survey flags — begin generating the first hypermemes capable of causing instantaneous enlightenment, produced by a secret quantum ai supercomputer trained on vexillomantic holy texts. president jaguar is later suspected of having been bribed by the vexillians in pricecoin.",
+    "image": null,
+    "link": { "label": "read more", "url": "https://alch3my.wiki/index.php/Vexillians" }
+  },
+  {
+    "id": "tln-launch",
+    "year": 2024,
+    "yPos": 0.38,
+    "title": "too late network launches",
+    "description": "the too late show expands into a full broadcast network, TLN. following a viral live broadcast, dr. beelzebub crow's reach explodes internationally. the brand becomes one of the first hyperbrands — a full-stack memeplex with its own way of life. fundamental memetics research accelerates under the psywar research corporation, a subsidiary of mega harvard LLC.",
+    "image": null,
+    "link": { "label": "read more", "url": "https://alch3my.wiki/index.php/Too_Late_Show" }
+  },
+  {
+    "id": "school-of-reality-studies",
+    "year": 2024,
+    "yPos": 0.78,
+    "title": "school of reality studies",
+    "description": "mega harvard establishes the school of reality studies, housing the culture endgame department and post-culture studies department. its inaugural endowed chair is the aleksander dugin endowed chair professor of culture hacking — named reluctantly. dr. beef supreme: 'before we came along, there weren't any respectable people studying how to manipulate public opinion en masse to create a false reality.'",
+    "image": null,
+    "link": { "label": "read more", "url": "https://alch3my.wiki/index.php/Mega_Harvard" }
+  },
+  {
+    "id": "belial-crow-arrives",
+    "year": 2024,
+    "yPos": 0.60,
+    "title": "dr. belial crow takes the desk",
+    "description": "following the death of dr. beelzebub crow, the too late show continues under a new host: dr. belial crow. the transition is not publicly acknowledged. returning viewers note no meaningful difference in programming. new viewers have no frame of reference. the psywar research corporation issues a brief statement describing the change as a 'routine personnel rotation.'",
+    "image": null,
+    "link": { "label": "read more", "url": "/about" }
+  },
+  {
+    "id": "mega-harvard-llc",
+    "year": 2034,
+    "yPos": 0.65,
+    "title": "mega harvard LLC incorporated",
+    "description": "dr. beef supreme and dr. beelzebub crow co-found mega harvard LLC, the corporate subsidiary of mega harvard. its first and primary subsidiary is the psywar research corporation, charged with producing high-grade memetic weaponry for undisclosed clients. internal records, which do not exist, describe the LLC's core mission as 'full-spectrum cognitive infrastructure.' the psywar research corporation's work will later be cited as the primary justification for the noospheric munitions act.",
+    "image": null,
+    "link": { "label": "read more", "url": "https://alch3my.wiki/index.php/Mega_Harvard" }
+  },
+  {
+    "id": "miami-psychedelic-attack",
+    "year": 2036,
+    "yPos": 0.18,
+    "title": "miami psychedelic attack",
+    "description": "a psychedelic terrorist organization floods the water system of the miami metropolitan area with lsd using techniques derived from psychedelic cryptography. the entire city is revealed to be covered in hidden messages — only visible at sufficient doses — which program citizens to rebel against the christofascist government of new florida. a sequence of high-profile assassinations and bombings follows. the event is classified as a national security incident within 48 hours.",
+    "image": null,
+    "link": { "label": "read more", "url": "https://alch3my.wiki/index.php/Acid_Cops" }
+  },
+  {
+    "id": "acid-cops",
+    "year": 2036,
+    "yPos": 0.50,
+    "title": "psychedelic police force formed",
+    "description": "in response to the miami psychedelic attack, the psychedelic police force — colloquially known as the acid cops — is established. officers are recruited primarily from three-letter agencies and are required to continuously ingest psychedelic drugs in order to decode hidden messages and infiltrate psychedelic terrorist networks. every investigator ever assigned to pursue dr. beef supreme has either gone insane, gone missing, or defected.",
+    "image": null,
+    "link": { "label": "read more", "url": "https://alch3my.wiki/index.php/Acid_Cops" }
+  },
+  {
+    "id": "beef-supreme-revealed",
+    "year": 2038,
+    "yPos": 0.82,
+    "title": "the beef supreme hyperconspiracy",
+    "description": "it emerges — or is alleged to emerge, or is alleged to have always been known — that dr. beef supreme has been secretly controlling the too late show and TLN without the knowledge or permission of dr. crow, using advanced knowledge. the notion is classified as the first known hyperconspiracy: a conspiracy whose time and space complexity grows so quickly that it is impossible to conclusively prove or disprove. it is impossible to know whether this entry is true.",
+    "image": null,
+    "link": { "label": "read more", "url": "https://alch3my.wiki/index.php/Dr._Beef_Supreme" }
+  },
+  {
+    "id": "president-jaguar-elected",
+    "year": 2040,
+    "yPos": 0.22,
+    "title": "president jaguar elected",
+    "description": "an early contributor to the too late show who left due to creative differences — and later became the show's arch nemesis — is elected president of the united states. the fact that he was already known as president jaguar before the election is a matter of much confusion to those unfamiliar with retrocausality. he is widely believed to have the highest iq of any human ever measured. but not even the president can untangle a hyperconspiracy.",
+    "image": null,
+    "link": { "label": "read more", "url": "https://alch3my.wiki/index.php/President_Jaguar" }
+  },
+  {
+    "id": "noospheric-munitions-act",
+    "year": 2042,
+    "yPos": 0.45,
+    "title": "noospheric munitions act",
+    "description": "president jaguar signs landmark legislation banning the production, possession, sale, or transport of memes capable of instantly producing enlightened beings — primarily those experienced via qualia operating systems in brain-machine interfaces. the act is drafted largely in response to memetic weaponry from the psywar research corporation. flags are specifically exempted, casting doubt on their status as real memes. vexillians are exempt by a separate provision, allegedly due to bribes paid in pricecoin.",
+    "image": null,
+    "link": { "label": "read more", "url": "https://alch3my.wiki/index.php/Noospheric_Munitions_Act_of_2042" }
+  },
+  {
+    "id": "crow-disappears",
+    "year": 2042,
+    "yPos": 0.80,
+    "title": "dr. beelzebub crow: wanted",
+    "description": "following passage of the noospheric munitions act, dr. beelzebub crow — host of the too late show, mass media mogul, and architect of the psywar research corporation — vanishes from public record. president jaguar's acid cops issue warrants for high crimes against transhumanity, citing crow's role in the GA-FL-AL tri-state water wars. he is suspected to be hiding among the vexillians.",
+    "image": null,
+    "link": { "label": "read more", "url": "https://alch3my.wiki/index.php/Dr._Beelzebub_Crow" }
+  }
+]
