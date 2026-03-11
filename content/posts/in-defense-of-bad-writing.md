@@ -54,7 +54,3 @@ This isn't just an aesthetic loss. It's an epistemic one.
 Bad writing is diagnostic. It's a window into how people actually think, instead of how they present their thinking. The homoerotic Christian propaganda isn't interesting because it's funny. It's interesting because it tells you something true about the person who wrote it, something they couldn't tell you directly, something they might not even know themselves. That kind of self-revelation doesn't survive editing. And if the AI does the editing before the writer has a chance to examine their own rough draft, they lose the feedback loop, the moment of recognition, the chance to learn something about themselves through the act of revision.
 
 Bad writing, at its best, is an invitation. Here is my brain, unguarded. That invitation disappears when the LLM smooths it into something presentable.
-
----
-
-This is in support of bad writing. Long may it survive.
